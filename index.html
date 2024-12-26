@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,7 +7,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="./tailwind.config.js"></script>
 </head>
-<body class="overflow-hidden">
+<body class="overflow-x-hidden">
     
 
     <nav class="w-full fixed px-5 lg:px-8 xl:px-[8%] py-4 flex items-center justify-between z-50">
@@ -56,7 +56,7 @@
     <div class="w-11/12 max-w-3xl text-center mx-auto h-screen flex flex-col items-center justify-center gap-4">
         <img src="Untitled design.png" alt="" class="rounded-full w-32">
         <h3 class="flex items-end gap-2 text-xl md:text-2xl mb-2">Hello! I'm Ayokunle Pastore<img src="hand-solid.svg" alt="" class="w-6"></h3>
-        <h1 class="text-3xl sm:text-6xl lg:text-[66px]">full-stack web developer based in uk.</h1>
+        <h1 class="text-3xl sm:text-6xl lg:text-[66px]">full-stack web developer based in London.</h1>
         <p class="max-w-2xl mx-auto">I am a full-stack developer from Nigeria based in Manchester uk, with 5 years of experience in multiple companies like Tesla, Google, Apple and Microsoft.</p>
 
         <div class="flex flex-col sm:flex-row items-center gap-4 mt-4">
@@ -70,9 +70,80 @@
 
     <!-- About me -->
 
-    <div>
+    <div id="about" class="w-full px-[12%] py-10 scroll-mt-20">
         <h4 class="text-center mb-2 text-lg">Introduction</h4>
         <h2 class="text-center text-5xl">About me</h2>
+
+        <div class="flex w-full flex-col lg:flex-row items-center gap-20 my-20">
+            <div class="max-w-max mx-auto relative">
+                <img src="Untitled design.png" alt="" class="w-64 sm:w-80 rounded-3xl max-w-none">
+
+                <div class="bg-white w-1/2 aspect-square absolute right-0 bottom-0 rounded-full
+                translate-x-1/4 translate-y-1/3 shadow-[0_4px_55px_rgba(149,0,162,0.15)] flex items-center justify-center">
+                <img src="Circler_design__5_-removebg-preview.png" alt="" class="w-full">
+                <img src="dev.icon.png" alt="" class="w-1/4 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+                </div>
+            </div>
+
+            <div class="flex-1">
+                <p class="mb-10 max-w-2xl">I am an experienced Full-Stack Developer with vast years of professional expertise in the field.
+                    Throughtout my career, I had the provilege to collaborating with prestigiousn organizations, contributiong to there success and growth </p>
+
+                    <ul class="grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-2xl">
+                        <li class="border-[2px] border-gray-400 rounded-xl p-6 cursor-pointer hover:bg-[#fcfaff] hover:-translate-y-1 duration-500
+                        hover:shadow-[4px_4px_0_#000]">
+                            <img src="code_off_24dp_F_FILL0_wght400_GRAD0_opsz24.svg" alt="" class="w-7 mt-3">
+                            <h3 class="my-4 font-semibold text-gray-700">Languages</h3>
+                            <p class="text-gray-600 text-sm">HTML, CSS, JavaScript, React Js, Next Js, Pyton</p>
+                        </li>
+                        <li class="border-[2px] border-gray-400 rounded-xl p-6 cursor-pointer hover:bg-[#fcfaff] hover:-translate-y-1 duration-500
+                        hover:shadow-[4px_4px_0_#000]">
+                            <img src="school_24dp_F_FILL0_wght400_GRAD0_opsz24.svg" alt="" class="w-7 mt-3">
+                            <h3 class="my-4 font-semibold text-gray-700">Education</h3>
+                            <p class="text-gray-600 text-sm">B.Tech in Computer Science</p>
+                        </li>
+                        <li class="border-[2px] border-gray-400 rounded-xl p-6 cursor-pointer hover:bg-[#fcfaff] hover:-translate-y-1 duration-500
+                        hover:shadow-[4px_4px_0_#000]">
+                            <img src="work_24dp_F_FILL0_wght400_GRAD0_opsz24.svg" alt="" class="w-7 mt-3">
+                            <h3 class="my-4 font-semibold text-gray-700">Projects</h3>
+                            <p class="text-gray-600 text-sm">Built more than 5 projects</p>
+                        </li>
+                    </ul>
+
+                    <h4 class="my-6 text-gray-700">Tools i use</h4>
+
+                    <ul class="flex items-center gap-3 sm:gap-5">
+                        <li class="flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-400
+                        rounded-lg cursor-pointer hover:-translate-y-1 duration-500">
+                            <img src="visual-studio-code.png" alt="" class="w-5 sm:w-7">
+                        </li>
+                        <li class="flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-400
+                        rounded-lg cursor-pointer hover:-translate-y-1 duration-500">
+                            <img src="Vue.js_Logo_2.svg.png" alt="" class="w-5 sm:w-7">
+                        </li>
+                        <li class="flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-400
+                        rounded-lg cursor-pointer hover:-translate-y-1 duration-500">
+                            <img src="figma-logo-0.png" alt="" class="w-5 sm:w-7">
+                        </li>
+                        <li class="flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-400
+                        rounded-lg cursor-pointer hover:-translate-y-1 duration-500">
+                            <img src="Git logo.jpeg" alt="" class="w-5 sm:w-7">
+                        </li>
+                        <li class="flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-400
+                        rounded-lg cursor-pointer hover:-translate-y-1 duration-500">
+                            <img src="Postman.png" alt="" class="w-5 sm:w-7">
+                        </li>
+                    </ul>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- ------- Services --------- -->
+
+    <div>
+        
     </div>
 
         
